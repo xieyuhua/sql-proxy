@@ -1,0 +1,663 @@
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:19:10+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:19:10+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:14984.\n","time":"2026-03-24T14:19:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:14984 to 192.167.1.6:3306.\n","time":"2026-03-24T14:19:14+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:24:51+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:24:51+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15229.\n","time":"2026-03-24T14:24:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15229 to 192.167.1.6:3306.\n","time":"2026-03-24T14:24:55+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:31:44+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:31:44+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15489.\n","time":"2026-03-24T14:31:51+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15489 to 192.167.1.6:3306.\n","time":"2026-03-24T14:31:51+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:35:03+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:35:03+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15580.\n","time":"2026-03-24T14:35:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15580 to 192.167.1.6:3306.\n","time":"2026-03-24T14:35:07+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:37:26+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:37:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15641.\n","time":"2026-03-24T14:37:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15641 to 192.167.1.6:3306.\n","time":"2026-03-24T14:37:30+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:39:11+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:39:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15677.\n","time":"2026-03-24T14:39:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15677 to 192.167.1.6:3306.\n","time":"2026-03-24T14:39:14+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:40:39+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:40:39+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15718.\n","time":"2026-03-24T14:40:42+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15718 to 192.167.1.6:3306.\n","time":"2026-03-24T14:40:42+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:43:11+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:43:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15829.\n","time":"2026-03-24T14:43:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15829 to 192.167.1.6:3306.\n","time":"2026-03-24T14:43:14+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:44:34+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:44:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15911.\n","time":"2026-03-24T14:44:37+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15911 to 192.167.1.6:3306.\n","time":"2026-03-24T14:44:37+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T14:46:27+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T14:46:27+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15969.\n","time":"2026-03-24T14:46:29+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15969 to 192.167.1.6:3306.\n","time":"2026-03-24T14:46:29+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16298.\n","time":"2026-03-24T14:55:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16298 to 192.167.1.6:3306.\n","time":"2026-03-24T14:55:40+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16300.\n","time":"2026-03-24T14:55:43+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16300 to 192.167.1.6:3306.\n","time":"2026-03-24T14:55:43+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16305.\n","time":"2026-03-24T14:55:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16305 to 192.167.1.6:3306.\n","time":"2026-03-24T14:55:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16307.\n","time":"2026-03-24T14:55:54+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16307 to 192.167.1.6:3306.\n","time":"2026-03-24T14:55:54+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T15:04:52+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T15:04:52+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16566.\n","time":"2026-03-24T15:04:56+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16566 to 192.167.1.6:3306.\n","time":"2026-03-24T15:04:56+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16575.\n","time":"2026-03-24T15:05:18+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16575 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:18+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16576.\n","time":"2026-03-24T15:05:21+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16576 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:21+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16578.\n","time":"2026-03-24T15:05:23+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16578 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16579.\n","time":"2026-03-24T15:05:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16579 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16582.\n","time":"2026-03-24T15:05:28+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16582 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:28+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:16583.\n","time":"2026-03-24T15:05:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:16583 to 192.167.1.6:3306.\n","time":"2026-03-24T15:05:30+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T15:38:28+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T15:38:28+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T15:38:48+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T15:38:48+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17657.\n","time":"2026-03-24T15:38:51+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17657 to 192.167.1.6:3306.\n","time":"2026-03-24T15:38:51+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17670.\n","time":"2026-03-24T15:39:34+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17670 to 192.167.1.6:3306.\n","time":"2026-03-24T15:39:34+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T15:40:25+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T15:40:25+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17692.\n","time":"2026-03-24T15:40:36+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17692 to 192.167.1.6:3306.\n","time":"2026-03-24T15:40:36+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17694.\n","time":"2026-03-24T15:40:42+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17694 to 192.167.1.6:3306.\n","time":"2026-03-24T15:40:42+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17695.\n","time":"2026-03-24T15:40:43+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17695 to 192.167.1.6:3306.\n","time":"2026-03-24T15:40:43+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17698.\n","time":"2026-03-24T15:40:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17698 to 192.167.1.6:3306.\n","time":"2026-03-24T15:40:50+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T16:08:38+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T16:08:38+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18462.\n","time":"2026-03-24T16:08:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18462 to 192.167.1.6:3306.\n","time":"2026-03-24T16:08:40+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T16:20:49+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T16:20:49+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18732.\n","time":"2026-03-24T16:20:52+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18732 to 192.167.1.6:3306.\n","time":"2026-03-24T16:20:52+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18744.\n","time":"2026-03-24T16:21:18+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18744 to 192.167.1.6:3306.\n","time":"2026-03-24T16:21:18+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18745.\n","time":"2026-03-24T16:21:21+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18745 to 192.167.1.6:3306.\n","time":"2026-03-24T16:21:21+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18748.\n","time":"2026-03-24T16:21:23+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18748 to 192.167.1.6:3306.\n","time":"2026-03-24T16:21:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18750.\n","time":"2026-03-24T16:21:23+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18750 to 192.167.1.6:3306.\n","time":"2026-03-24T16:21:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18751.\n","time":"2026-03-24T16:21:27+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18751 to 192.167.1.6:3306.\n","time":"2026-03-24T16:21:27+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T16:26:55+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T16:26:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18890.\n","time":"2026-03-24T16:26:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18890 to 192.167.1.6:3306.\n","time":"2026-03-24T16:26:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18903.\n","time":"2026-03-24T16:27:22+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18903 to 192.167.1.6:3306.\n","time":"2026-03-24T16:27:22+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18905.\n","time":"2026-03-24T16:27:24+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18905 to 192.167.1.6:3306.\n","time":"2026-03-24T16:27:24+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T16:32:00+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T16:32:00+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19010.\n","time":"2026-03-24T16:32:11+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19010 to 192.167.1.6:3306.\n","time":"2026-03-24T16:32:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19012.\n","time":"2026-03-24T16:32:16+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19012 to 192.167.1.6:3306.\n","time":"2026-03-24T16:32:16+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19014.\n","time":"2026-03-24T16:32:23+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19014 to 192.167.1.6:3306.\n","time":"2026-03-24T16:32:23+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T16:41:54+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T16:41:54+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19266.\n","time":"2026-03-24T16:42:09+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19266 to 192.167.1.6:3306.\n","time":"2026-03-24T16:42:09+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19268.\n","time":"2026-03-24T16:42:13+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19268 to 192.167.1.6:3306.\n","time":"2026-03-24T16:42:13+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19269.\n","time":"2026-03-24T16:42:13+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19269 to 192.167.1.6:3306.\n","time":"2026-03-24T16:42:13+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19273.\n","time":"2026-03-24T16:42:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19273 to 192.167.1.6:3306.\n","time":"2026-03-24T16:42:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:19282.\n","time":"2026-03-24T16:42:39+08:00"}
+{"level":"info","msg":"from 192.167.1.254:19282 to 192.167.1.6:3306.\n","time":"2026-03-24T16:42:39+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:03:34+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T17:03:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20067.\n","time":"2026-03-24T17:03:56+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20067 to 192.167.1.6:3306.\n","time":"2026-03-24T17:03:56+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20068.\n","time":"2026-03-24T17:03:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20068 to 192.167.1.6:3306.\n","time":"2026-03-24T17:03:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20070.\n","time":"2026-03-24T17:04:00+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20070 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:00+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20071.\n","time":"2026-03-24T17:04:04+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20071 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20073.\n","time":"2026-03-24T17:04:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20073 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:07+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20074.\n","time":"2026-03-24T17:04:09+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20074 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:09+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20105.\n","time":"2026-03-24T17:04:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20105 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20109.\n","time":"2026-03-24T17:04:53+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20109 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:53+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20116.\n","time":"2026-03-24T17:04:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20116 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20120.\n","time":"2026-03-24T17:04:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20120 to 192.167.1.6:3306.\n","time":"2026-03-24T17:04:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20121.\n","time":"2026-03-24T17:04:59+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20121 to 192.167.1.6:3306.\n","time":"2026-03-24T17:05:00+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20123.\n","time":"2026-03-24T17:05:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20123 to 192.167.1.6:3306.\n","time":"2026-03-24T17:05:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20124.\n","time":"2026-03-24T17:05:03+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20124 to 192.167.1.6:3306.\n","time":"2026-03-24T17:05:03+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20127.\n","time":"2026-03-24T17:05:11+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20127 to 192.167.1.6:3306.\n","time":"2026-03-24T17:05:11+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:38:54+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T17:38:54+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21300.\n","time":"2026-03-24T17:38:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21300 to 192.167.1.6:3306.\n","time":"2026-03-24T17:38:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21305.\n","time":"2026-03-24T17:39:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21305 to 192.167.1.6:3306.\n","time":"2026-03-24T17:39:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21306.\n","time":"2026-03-24T17:39:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21306 to 192.167.1.6:3306.\n","time":"2026-03-24T17:39:02+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21310.\n","time":"2026-03-24T17:39:15+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21310 to 192.167.1.6:3306.\n","time":"2026-03-24T17:39:15+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21318.\n","time":"2026-03-24T17:39:42+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21318 to 192.167.1.6:3306.\n","time":"2026-03-24T17:39:42+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:46:27+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-24T17:46:27+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22277.\n","time":"2026-03-24T17:46:31+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22277 to 192.167.1.6:3306.\n","time":"2026-03-24T17:46:31+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22281.\n","time":"2026-03-24T17:46:37+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22281 to 192.167.1.6:3306.\n","time":"2026-03-24T17:46:37+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:48:33+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:48:33+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22330.\n","time":"2026-03-24T17:48:45+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22330 to 192.167.1.21:1521.\n","time":"2026-03-24T17:48:45+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22332.\n","time":"2026-03-24T17:48:49+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22332 to 192.167.1.21:1521.\n","time":"2026-03-24T17:48:49+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22358.\n","time":"2026-03-24T17:49:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22358 to 192.167.1.21:1521.\n","time":"2026-03-24T17:49:57+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:50:44+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:50:44+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22376.\n","time":"2026-03-24T17:50:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22376 to 192.167.1.21:1521.\n","time":"2026-03-24T17:50:55+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:51:23+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:51:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22387.\n","time":"2026-03-24T17:51:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22387 to 192.167.1.21:1521.\n","time":"2026-03-24T17:51:26+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:51:32+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:51:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22389.\n","time":"2026-03-24T17:51:35+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22389 to 192.167.1.21:1521.\n","time":"2026-03-24T17:51:35+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:51:58+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:51:58+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:52:03+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:52:03+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22406.\n","time":"2026-03-24T17:52:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22406 to 192.167.1.21:1521.\n","time":"2026-03-24T17:52:14+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22433.\n","time":"2026-03-24T17:52:53+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22433 to 192.167.1.21:1521.\n","time":"2026-03-24T17:52:53+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22439.\n","time":"2026-03-24T17:53:04+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22439 to 192.167.1.21:1521.\n","time":"2026-03-24T17:53:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22440.\n","time":"2026-03-24T17:53:06+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22440 to 192.167.1.21:1521.\n","time":"2026-03-24T17:53:06+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:53:26+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:53:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22464.\n","time":"2026-03-24T17:53:33+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22464 to 192.167.1.21:1521.\n","time":"2026-03-24T17:53:33+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22466.\n","time":"2026-03-24T17:53:34+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22466 to 192.167.1.21:1521.\n","time":"2026-03-24T17:53:34+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:54:34+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:54:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22484.\n","time":"2026-03-24T17:54:39+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22484 to 192.167.1.21:1521.\n","time":"2026-03-24T17:54:39+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22486.\n","time":"2026-03-24T17:54:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22486 to 192.167.1.21:1521.\n","time":"2026-03-24T17:54:41+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:54:51+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:54:51+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22490.\n","time":"2026-03-24T17:54:54+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22490 to 192.167.1.21:1521.\n","time":"2026-03-24T17:54:54+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22492.\n","time":"2026-03-24T17:54:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22492 to 192.167.1.21:1521.\n","time":"2026-03-24T17:54:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22538.\n","time":"2026-03-24T17:56:53+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22538 to 192.167.1.21:1521.\n","time":"2026-03-24T17:56:53+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22539.\n","time":"2026-03-24T17:56:54+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22539 to 192.167.1.21:1521.\n","time":"2026-03-24T17:56:54+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-24T17:57:34+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-24T17:57:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22564.\n","time":"2026-03-24T17:57:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22564 to 192.167.1.21:1521.\n","time":"2026-03-24T17:57:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22565.\n","time":"2026-03-24T17:57:52+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22565 to 192.167.1.21:1521.\n","time":"2026-03-24T17:57:52+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22571.\n","time":"2026-03-24T17:58:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22571 to 192.167.1.21:1521.\n","time":"2026-03-24T17:58:02+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22572.\n","time":"2026-03-24T17:58:04+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22572 to 192.167.1.21:1521.\n","time":"2026-03-24T17:58:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22604.\n","time":"2026-03-24T17:58:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22604 to 192.167.1.21:1521.\n","time":"2026-03-24T17:58:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:22607.\n","time":"2026-03-24T17:58:51+08:00"}
+{"level":"info","msg":"from 192.167.1.254:22607 to 192.167.1.21:1521.\n","time":"2026-03-24T17:58:51+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:41856.\n","time":"2026-03-25T08:17:00+08:00"}
+{"level":"info","msg":"from 192.167.1.254:41856 to 192.167.1.21:1521.\n","time":"2026-03-25T08:17:00+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:1521-\u003e192.167.1.254:22564: write tcp 192.167.1.124:60126-\u003e192.167.1.21:1521: write: broken pipe","time":"2026-03-25T08:17:18+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:1521-\u003e192.167.1.254:22565: read tcp 192.167.1.124:1521-\u003e192.167.1.254:22565: read: connection reset by peer","time":"2026-03-25T08:18:55+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T08:22:27+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-25T08:22:27+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:41993.\n","time":"2026-03-25T08:22:34+08:00"}
+{"level":"info","msg":"from 192.167.1.254:41993 to 192.167.1.21:1521.\n","time":"2026-03-25T08:22:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:42050.\n","time":"2026-03-25T08:24:35+08:00"}
+{"level":"info","msg":"from 192.167.1.254:42050 to 192.167.1.21:1521.\n","time":"2026-03-25T08:24:35+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:1521-\u003e192.167.1.254:41993: write tcp 192.167.1.124:48136-\u003e192.167.1.21:1521: write: broken pipe","time":"2026-03-25T08:24:36+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:15:30+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-25T09:15:30+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:15:51+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-25T09:15:51+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43653.\n","time":"2026-03-25T09:15:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43653 to 192.167.1.21:1521.\n","time":"2026-03-25T09:15:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43654.\n","time":"2026-03-25T09:15:59+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43654 to 192.167.1.21:1521.\n","time":"2026-03-25T09:15:59+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:17:53+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:17:53+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43761.\n","time":"2026-03-25T09:18:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43761 to 192.167.1.6:3306.\n","time":"2026-03-25T09:18:01+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:18:11+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:18:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43764.\n","time":"2026-03-25T09:18:13+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43764 to 192.167.1.6:3306.\n","time":"2026-03-25T09:18:13+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43768.\n","time":"2026-03-25T09:18:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43768 to 192.167.1.6:3306.\n","time":"2026-03-25T09:18:26+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:18:40+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:18:40+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43776.\n","time":"2026-03-25T09:18:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43776 to 192.167.1.6:3306.\n","time":"2026-03-25T09:18:58+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:19:34+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:19:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43792.\n","time":"2026-03-25T09:19:38+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43792 to 192.167.1.6:3306.\n","time":"2026-03-25T09:19:38+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:20:18+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:20:18+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43813.\n","time":"2026-03-25T09:20:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43813 to 192.167.1.6:3306.\n","time":"2026-03-25T09:20:26+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:21:05+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:21:05+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43825.\n","time":"2026-03-25T09:21:09+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43825 to 192.167.1.6:3306.\n","time":"2026-03-25T09:21:09+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43828.\n","time":"2026-03-25T09:21:16+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43828 to 192.167.1.6:3306.\n","time":"2026-03-25T09:21:16+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:21:43+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:21:43+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43841.\n","time":"2026-03-25T09:21:48+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43841 to 192.167.1.6:3306.\n","time":"2026-03-25T09:21:48+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43842.\n","time":"2026-03-25T09:21:51+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43842 to 192.167.1.6:3306.\n","time":"2026-03-25T09:21:51+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T09:22:00+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T09:22:00+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43849.\n","time":"2026-03-25T09:22:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43849 to 192.167.1.6:3306.\n","time":"2026-03-25T09:22:07+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:43871.\n","time":"2026-03-25T09:22:36+08:00"}
+{"level":"info","msg":"from 192.167.1.254:43871 to 192.167.1.6:3306.\n","time":"2026-03-25T09:22:36+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:45527.\n","time":"2026-03-25T09:58:28+08:00"}
+{"level":"info","msg":"from 192.167.1.254:45527 to 192.167.1.6:3306.\n","time":"2026-03-25T09:58:28+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:59320.\n","time":"2026-03-25T14:42:11+08:00"}
+{"level":"info","msg":"from 192.167.1.254:59320 to 192.167.1.6:3306.\n","time":"2026-03-25T14:42:11+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T17:57:41+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T17:57:41+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:48259.\n","time":"2026-03-25T17:57:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:48259 to 192.167.1.6:3306.\n","time":"2026-03-25T17:57:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:48260.\n","time":"2026-03-25T17:58:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:48260 to 192.167.1.6:3306.\n","time":"2026-03-25T17:58:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:48261.\n","time":"2026-03-25T17:58:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:48261 to 192.167.1.6:3306.\n","time":"2026-03-25T17:58:03+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-25T18:00:08+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-25T18:00:08+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:48628.\n","time":"2026-03-25T18:00:11+08:00"}
+{"level":"info","msg":"from 192.167.1.254:48628 to 192.167.1.6:3306.\n","time":"2026-03-25T18:00:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13162.\n","time":"2026-03-26T08:21:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13162 to 192.167.1.6:3306.\n","time":"2026-03-26T08:21:30+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:21:50+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:21:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13182.\n","time":"2026-03-26T08:21:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13182 to 192.167.1.6:3306.\n","time":"2026-03-26T08:21:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13188.\n","time":"2026-03-26T08:22:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13188 to 192.167.1.6:3306.\n","time":"2026-03-26T08:22:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13194.\n","time":"2026-03-26T08:22:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13194 to 192.167.1.6:3306.\n","time":"2026-03-26T08:22:14+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13217.\n","time":"2026-03-26T08:23:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13217 to 192.167.1.6:3306.\n","time":"2026-03-26T08:23:02+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:13226.\n","time":"2026-03-26T08:23:32+08:00"}
+{"level":"info","msg":"from 192.167.1.254:13226 to 192.167.1.6:3306.\n","time":"2026-03-26T08:23:32+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:40:23+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:40:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:14976.\n","time":"2026-03-26T08:40:28+08:00"}
+{"level":"info","msg":"from 192.167.1.254:14976 to 192.167.1.6:3306.\n","time":"2026-03-26T08:40:29+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:14978.\n","time":"2026-03-26T08:40:37+08:00"}
+{"level":"info","msg":"from 192.167.1.254:14978 to 192.167.1.6:3306.\n","time":"2026-03-26T08:40:38+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:14983.\n","time":"2026-03-26T08:40:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:14983 to 192.167.1.6:3306.\n","time":"2026-03-26T08:40:40+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:41:18+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:41:18+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:14998.\n","time":"2026-03-26T08:41:20+08:00"}
+{"level":"info","msg":"from 192.167.1.254:14998 to 192.167.1.6:3306.\n","time":"2026-03-26T08:41:20+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:41:56+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:41:56+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15061.\n","time":"2026-03-26T08:41:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15061 to 192.167.1.6:3306.\n","time":"2026-03-26T08:41:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15067.\n","time":"2026-03-26T08:42:04+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15067 to 192.167.1.6:3306.\n","time":"2026-03-26T08:42:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15068.\n","time":"2026-03-26T08:42:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15068 to 192.167.1.6:3306.\n","time":"2026-03-26T08:42:05+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:50:18+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:50:18+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15387.\n","time":"2026-03-26T08:50:22+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15387 to 192.167.1.6:3306.\n","time":"2026-03-26T08:50:24+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:50:55+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:50:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15400.\n","time":"2026-03-26T08:51:00+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15400 to 192.167.1.6:3306.\n","time":"2026-03-26T08:51:00+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T08:51:32+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T08:51:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15419.\n","time":"2026-03-26T08:51:34+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15419 to 192.167.1.6:3306.\n","time":"2026-03-26T08:51:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18519.\n","time":"2026-03-26T10:12:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18519 to 192.167.1.6:3306.\n","time":"2026-03-26T10:12:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:18520.\n","time":"2026-03-26T10:12:20+08:00"}
+{"level":"info","msg":"from 192.167.1.254:18520 to 192.167.1.6:3306.\n","time":"2026-03-26T10:12:20+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21152.\n","time":"2026-03-26T10:43:46+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21152 to 192.167.1.6:3306.\n","time":"2026-03-26T10:43:46+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:21179.\n","time":"2026-03-26T10:44:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:21179 to 192.167.1.6:3306.\n","time":"2026-03-26T10:44:05+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:20:24+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:20:24+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:33:11+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:33:11+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:33:16+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:33:16+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24629.\n","time":"2026-03-26T11:33:42+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24629 to 192.167.1.6:3306.\n","time":"2026-03-26T11:33:42+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24632.\n","time":"2026-03-26T11:33:48+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24632 to 192.167.1.6:3306.\n","time":"2026-03-26T11:33:49+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24655.\n","time":"2026-03-26T11:34:32+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24655 to 192.167.1.6:3306.\n","time":"2026-03-26T11:34:32+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:36:11+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:36:11+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24697.\n","time":"2026-03-26T11:36:16+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24697 to 192.167.1.6:3306.\n","time":"2026-03-26T11:36:16+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:37:06+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:37:06+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24732.\n","time":"2026-03-26T11:37:08+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24732 to 192.167.1.6:3306.\n","time":"2026-03-26T11:37:08+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35010-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:37:08+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24735.\n","time":"2026-03-26T11:37:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24735 to 192.167.1.6:3306.\n","time":"2026-03-26T11:37:14+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35028-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:37:14+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:37:35+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:37:35+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24760.\n","time":"2026-03-26T11:37:41+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24760 to 192.167.1.6:3306.\n","time":"2026-03-26T11:37:41+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35032-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:37:41+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24764.\n","time":"2026-03-26T11:37:45+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24764 to 192.167.1.6:3306.\n","time":"2026-03-26T11:37:45+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35050-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:37:45+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:38:42+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:38:42+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:38:47+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:38:47+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24787.\n","time":"2026-03-26T11:38:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24787 to 192.167.1.6:3306.\n","time":"2026-03-26T11:38:50+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35088-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:38:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24789.\n","time":"2026-03-26T11:38:52+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24789 to 192.167.1.6:3306.\n","time":"2026-03-26T11:38:52+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35090-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:38:52+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:39:19+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:39:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24796.\n","time":"2026-03-26T11:39:22+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24796 to 192.167.1.6:3306.\n","time":"2026-03-26T11:39:22+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35110-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:39:22+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24799.\n","time":"2026-03-26T11:39:32+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24799 to 192.167.1.6:3306.\n","time":"2026-03-26T11:39:32+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35112-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:39:32+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:40:23+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:40:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24886.\n","time":"2026-03-26T11:40:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24886 to 192.167.1.6:3306.\n","time":"2026-03-26T11:40:26+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35156-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:40:26+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:40:57+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:40:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24899.\n","time":"2026-03-26T11:41:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24899 to 192.167.1.6:3306.\n","time":"2026-03-26T11:41:01+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35176-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:41:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24901.\n","time":"2026-03-26T11:41:04+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24901 to 192.167.1.6:3306.\n","time":"2026-03-26T11:41:04+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35178-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:41:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24903.\n","time":"2026-03-26T11:41:10+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24903 to 192.167.1.6:3306.\n","time":"2026-03-26T11:41:10+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35180-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:41:10+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24909.\n","time":"2026-03-26T11:41:31+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24909 to 192.167.1.6:3306.\n","time":"2026-03-26T11:41:32+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35198-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:41:32+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:41:45+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1522 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:41:45+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24923.\n","time":"2026-03-26T11:41:48+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24923 to 192.167.1.6:3306.\n","time":"2026-03-26T11:41:48+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35218-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:41:48+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:42:03+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:42:03+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:42:08+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:42:08+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24941.\n","time":"2026-03-26T11:42:13+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24941 to 192.167.1.6:3306.\n","time":"2026-03-26T11:42:13+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35226-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:42:13+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:42:48+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:42:48+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24955.\n","time":"2026-03-26T11:42:51+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24955 to 192.167.1.6:3306.\n","time":"2026-03-26T11:42:51+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35270-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:42:51+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:43:04+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:43:04+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24961.\n","time":"2026-03-26T11:43:06+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24961 to 192.167.1.6:3306.\n","time":"2026-03-26T11:43:06+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24963.\n","time":"2026-03-26T11:43:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24963 to 192.167.1.6:3306.\n","time":"2026-03-26T11:43:07+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:43:17+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:43:17+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:24966.\n","time":"2026-03-26T11:43:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:24966 to 192.167.1.6:3306.\n","time":"2026-03-26T11:43:19+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35300-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:43:19+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:43:59+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:43:59+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25039.\n","time":"2026-03-26T11:44:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25039 to 192.167.1.6:3306.\n","time":"2026-03-26T11:44:02+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:45:57+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:45:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25107.\n","time":"2026-03-26T11:46:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25107 to 192.167.1.6:3306.\n","time":"2026-03-26T11:46:02+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:50:02+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:50:02+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25462.\n","time":"2026-03-26T11:50:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25462 to 192.167.1.6:3306.\n","time":"2026-03-26T11:50:05+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:53:56+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:53:56+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25766.\n","time":"2026-03-26T11:53:59+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25766 to 192.167.1.6:3306.\n","time":"2026-03-26T11:53:59+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25789.\n","time":"2026-03-26T11:54:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25789 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25793.\n","time":"2026-03-26T11:54:03+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25793 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:03+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25795.\n","time":"2026-03-26T11:54:06+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25795 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:06+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25797.\n","time":"2026-03-26T11:54:13+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25797 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:13+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25799.\n","time":"2026-03-26T11:54:16+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25799 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:16+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25801.\n","time":"2026-03-26T11:54:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25801 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25805.\n","time":"2026-03-26T11:54:24+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25805 to 192.167.1.6:3306.\n","time":"2026-03-26T11:54:24+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25859.\n","time":"2026-03-26T11:55:25+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25859 to 192.167.1.6:3306.\n","time":"2026-03-26T11:55:25+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25860.\n","time":"2026-03-26T11:55:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25860 to 192.167.1.6:3306.\n","time":"2026-03-26T11:55:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25865.\n","time":"2026-03-26T11:55:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25865 to 192.167.1.6:3306.\n","time":"2026-03-26T11:55:40+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25867.\n","time":"2026-03-26T11:55:44+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25867 to 192.167.1.6:3306.\n","time":"2026-03-26T11:55:44+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25869.\n","time":"2026-03-26T11:55:52+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25869 to 192.167.1.6:3306.\n","time":"2026-03-26T11:55:52+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25874.\n","time":"2026-03-26T11:56:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25874 to 192.167.1.6:3306.\n","time":"2026-03-26T11:56:05+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25875.\n","time":"2026-03-26T11:56:08+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25875 to 192.167.1.6:3306.\n","time":"2026-03-26T11:56:08+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:25887.\n","time":"2026-03-26T11:56:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:25887 to 192.167.1.6:3306.\n","time":"2026-03-26T11:56:19+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:57:25+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:57:25+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15209.\n","time":"2026-03-26T11:57:28+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15209 to 192.167.1.6:3306.\n","time":"2026-03-26T11:57:28+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:35826-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T11:57:28+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:58:22+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:58:22+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15255.\n","time":"2026-03-26T11:58:25+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15255 to 192.167.1.6:3306.\n","time":"2026-03-26T11:58:25+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15259.\n","time":"2026-03-26T11:58:29+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15259 to 192.167.1.6:3306.\n","time":"2026-03-26T11:58:29+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:58:52+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:58:52+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15283.\n","time":"2026-03-26T11:58:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15283 to 192.167.1.6:3306.\n","time":"2026-03-26T11:58:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15286.\n","time":"2026-03-26T11:58:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15286 to 192.167.1.6:3306.\n","time":"2026-03-26T11:58:58+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T11:59:17+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T11:59:17+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15330.\n","time":"2026-03-26T12:00:02+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15330 to 192.167.1.6:3306.\n","time":"2026-03-26T12:00:02+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T12:00:26+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-26T12:00:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:15350.\n","time":"2026-03-26T12:00:43+08:00"}
+{"level":"info","msg":"from 192.167.1.254:15350 to 192.167.1.21:1521.\n","time":"2026-03-26T12:00:43+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:41:17+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.21:1521] \n","time":"2026-03-26T13:41:17+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:41:30+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T13:41:30+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17425.\n","time":"2026-03-26T13:41:35+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17425 to 192.167.1.6:3306.\n","time":"2026-03-26T13:41:35+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:42:51+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T13:42:51+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:42:55+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T13:42:55+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17450.\n","time":"2026-03-26T13:42:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17450 to 192.167.1.6:3306.\n","time":"2026-03-26T13:42:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17451.\n","time":"2026-03-26T13:43:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17451 to 192.167.1.6:3306.\n","time":"2026-03-26T13:43:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17466.\n","time":"2026-03-26T13:43:57+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17466 to 192.167.1.6:3306.\n","time":"2026-03-26T13:43:57+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17467.\n","time":"2026-03-26T13:44:01+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17467 to 192.167.1.6:3306.\n","time":"2026-03-26T13:44:01+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17515.\n","time":"2026-03-26T13:45:16+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17515 to 192.167.1.6:3306.\n","time":"2026-03-26T13:45:16+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17528.\n","time":"2026-03-26T13:45:33+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17528 to 192.167.1.6:3306.\n","time":"2026-03-26T13:45:33+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:46:32+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T13:46:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17550.\n","time":"2026-03-26T13:46:38+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17550 to 192.167.1.6:3306.\n","time":"2026-03-26T13:46:38+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:40200-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T13:46:38+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17558.\n","time":"2026-03-26T13:46:58+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17558 to 192.167.1.6:3306.\n","time":"2026-03-26T13:46:58+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:40220-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T13:46:58+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17561.\n","time":"2026-03-26T13:47:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17561 to 192.167.1.6:3306.\n","time":"2026-03-26T13:47:07+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:40222-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T13:47:07+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17565.\n","time":"2026-03-26T13:47:22+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17565 to 192.167.1.6:3306.\n","time":"2026-03-26T13:47:22+08:00"}
+{"level":"error","msg":"transaction error: writeto tcp 192.167.1.124:40240-\u003e192.167.1.6:3306: short buffer","time":"2026-03-26T13:47:22+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T13:47:47+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T13:47:47+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17577.\n","time":"2026-03-26T13:47:49+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17577 to 192.167.1.6:3306.\n","time":"2026-03-26T13:47:49+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17579.\n","time":"2026-03-26T13:47:53+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17579 to 192.167.1.6:3306.\n","time":"2026-03-26T13:47:53+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17589.\n","time":"2026-03-26T13:48:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17589 to 192.167.1.6:3306.\n","time":"2026-03-26T13:48:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:17590.\n","time":"2026-03-26T13:48:21+08:00"}
+{"level":"info","msg":"from 192.167.1.254:17590 to 192.167.1.6:3306.\n","time":"2026-03-26T13:48:21+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T14:58:26+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T14:58:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20448.\n","time":"2026-03-26T14:58:31+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20448 to 192.167.1.6:3306.\n","time":"2026-03-26T14:58:31+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20450.\n","time":"2026-03-26T14:58:32+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20450 to 192.167.1.6:3306.\n","time":"2026-03-26T14:58:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:20451.\n","time":"2026-03-26T14:58:35+08:00"}
+{"level":"info","msg":"from 192.167.1.254:20451 to 192.167.1.6:3306.\n","time":"2026-03-26T14:58:35+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61792.\n","time":"2026-03-26T17:08:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61792 to 192.167.1.6:3306.\n","time":"2026-03-26T17:08:30+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61793.\n","time":"2026-03-26T17:08:32+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61793 to 192.167.1.6:3306.\n","time":"2026-03-26T17:08:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61819.\n","time":"2026-03-26T17:08:43+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61819 to 192.167.1.6:3306.\n","time":"2026-03-26T17:08:43+08:00"}
+{"level":"info","msg":"Start monitor on addr ","time":"2026-03-26T17:12:13+08:00"}
+{"level":"info","msg":"Proxying 0.0.0.0:1521 -\u003e [192.167.1.6:3306] \n","time":"2026-03-26T17:12:13+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61918.\n","time":"2026-03-26T17:12:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61918 to 192.167.1.6:3306.\n","time":"2026-03-26T17:12:14+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61947.\n","time":"2026-03-26T17:13:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61947 to 192.167.1.6:3306.\n","time":"2026-03-26T17:13:05+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61953.\n","time":"2026-03-26T17:13:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61953 to 192.167.1.6:3306.\n","time":"2026-03-26T17:13:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61992.\n","time":"2026-03-26T17:14:15+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61992 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:15+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61993.\n","time":"2026-03-26T17:14:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61993 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61996.\n","time":"2026-03-26T17:14:26+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61996 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:26+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61997.\n","time":"2026-03-26T17:14:28+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61997 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:28+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:61999.\n","time":"2026-03-26T17:14:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:61999 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:30+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62003.\n","time":"2026-03-26T17:14:40+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62003 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:40+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62006.\n","time":"2026-03-26T17:14:47+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62006 to 192.167.1.6:3306.\n","time":"2026-03-26T17:14:47+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62112.\n","time":"2026-03-26T17:21:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62112 to 192.167.1.6:3306.\n","time":"2026-03-26T17:21:05+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62115.\n","time":"2026-03-26T17:21:05+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62115 to 192.167.1.6:3306.\n","time":"2026-03-26T17:21:05+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62186.\n","time":"2026-03-26T17:24:09+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62186 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:09+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62189.\n","time":"2026-03-26T17:24:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62189 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62190.\n","time":"2026-03-26T17:24:23+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62190 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:23+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62192.\n","time":"2026-03-26T17:24:27+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62192 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:27+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62194.\n","time":"2026-03-26T17:24:30+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62194 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:30+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62195.\n","time":"2026-03-26T17:24:31+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62195 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:32+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62197.\n","time":"2026-03-26T17:24:34+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62197 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:34+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62200.\n","time":"2026-03-26T17:24:41+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62200 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:41+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62201.\n","time":"2026-03-26T17:24:42+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62201 to 192.167.1.6:3306.\n","time":"2026-03-26T17:24:42+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62221.\n","time":"2026-03-26T17:26:07+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62221 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:07+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62222.\n","time":"2026-03-26T17:26:09+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62222 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:09+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62224.\n","time":"2026-03-26T17:26:14+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62224 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:14+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62226.\n","time":"2026-03-26T17:26:17+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62226 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:17+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62228.\n","time":"2026-03-26T17:26:19+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62228 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:19+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:62229.\n","time":"2026-03-26T17:26:22+08:00"}
+{"level":"info","msg":"from 192.167.1.254:62229 to 192.167.1.6:3306.\n","time":"2026-03-26T17:26:22+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:29110.\n","time":"2026-03-27T09:18:47+08:00"}
+{"level":"info","msg":"from 192.167.1.254:29110 to 192.167.1.6:3306.\n","time":"2026-03-27T09:18:47+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:29113.\n","time":"2026-03-27T09:18:50+08:00"}
+{"level":"info","msg":"from 192.167.1.254:29113 to 192.167.1.6:3306.\n","time":"2026-03-27T09:18:50+08:00"}
+{"level":"info","msg":"Received connection from 192.167.1.254:29117.\n","time":"2026-03-27T09:18:55+08:00"}
+{"level":"info","msg":"from 192.167.1.254:29117 to 192.167.1.6:3306.\n","time":"2026-03-27T09:18:55+08:00"}

@@ -1,0 +1,16 @@
+bind: 0.0.0.0:1521
+wait_queue_len: 10000
+max_conn: 50
+bulk_size: 51200
+slow_time: 0 # 1000 ms
+timeout: 60 #连接时长
+failover: 3 #负载均衡尝试连接次数
+type: "mysql" #mysql redis http oracle
+# stats: 0.0.0.0:2356
+backend:
+    # - 192.167.1.21:1521
+    - 192.167.1.6:3306
+    # - 192.167.1.6:3308
+log:
+    level: "info"
+    path: "./logs/proxy.log"

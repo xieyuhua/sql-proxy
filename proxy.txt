@@ -1,0 +1,402 @@
+package main
+
+import (
+	"net"
+	"time"
+	"fmt"
+	"sync"
+	"context"
+	"io"
+	"sync/atomic"
+	"tcpproxy/protocol"
+    "github.com/sirupsen/logrus"
+)
+
+var onlineNum int64
+
+var dataType = map[string]bool{
+	"mysql":  true,
+	"redis": true,
+	"oracle": true,
+	"http": true,
+}
+
+func inc() { atomic.AddInt64(&onlineNum, 1) }
+func dec() { atomic.AddInt64(&onlineNum, -1) }
+
+var sqlChan = make(chan string, 1000)
+
+func init() {
+	go func() {
+		for sql := range sqlChan {
+			fmt.Println(sql)
+		}
+	}()
+}
+
+// ------------------ Slow SQL ------------------
+func logSlowSQL(sql string, cost float64) {
+	if cost <= float64(Config.SlowTime) || sql == "" {
+		return
+	}
+	select {
+        case sqlChan <- sql:
+        default:
+    }
+	Logs.WithFields(logrus.Fields{
+		"cost_ms": fmt.Sprintf("%.2f", cost),
+		"sql":     sql,
+	}).Warn("slow sql")
+	
+}
+
+
+// 初始化代理服务
+func initProxy() {
+	Log.Infof("Proxying %s -> %s \n", Config.Bind, Config.Backend)
+	server, err := net.Listen("tcp", Config.Bind)
+	if err != nil {
+		Log.Fatal(err)
+	}
+	
+	queue := make(chan net.Conn, Config.WaitQueueLen)
+	for i := 0; i < Config.MaxConn; i++ {
+		go worker(queue)
+	}
+	
+	// 接收连接并抛给管道处理
+	for {
+		conn, err := server.Accept()
+		if err != nil {
+			Log.Error(err)
+			continue
+		}
+		Log.Infof("Received connection from %s.\n", conn.RemoteAddr())
+		queue <- conn
+	}
+}
+
+func worker(queue <-chan net.Conn) {
+	for conn := range queue {
+		handleConn(conn)
+	}
+}
+
+// ------------------ Session ------------------
+type Session struct {
+	StartTime int64
+	SQL       string
+}
+
+var (
+	sessions   = make(map[string]*Session)
+	sessionMu sync.RWMutex
+)
+
+func storeSession(id string, s *Session) {
+	sessionMu.Lock()
+	sessions[id] = s
+	sessionMu.Unlock()
+}
+
+func deleteSession(id string) (*Session, bool) {
+	sessionMu.Lock()
+	defer sessionMu.Unlock()
+	s, ok := sessions[id]
+	if ok {
+		delete(sessions, id)
+	}
+	return s, ok
+}
+
+
+// 但 占比 73.35% 的 CPU 时间 → 锁竞争已经成主瓶颈
+// 👉 常见来源：
+// sync.Mutex
+// sync.WaitGroup
+// channel send / recv
+// sync.Map
+
+var connIDGen uint64
+
+func genConnID() string {
+	return fmt.Sprintf("%d", atomic.AddUint64(&connIDGen, 1))
+}
+
+// ------------------ Handle Conn ------------------
+func handleConn(conn net.Conn) {
+    
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	defer conn.Close()
+	
+	// 根据链接哈希选择机器
+	proxySvr, ok := getBackendSvr(conn)
+	if !ok {
+		return
+	}
+	// 链接远程代理服务器
+	remote, err := net.Dial("tcp", proxySvr.identify)
+	if err != nil {
+		Log.Error(err)
+		proxySvr.failTimes++
+		return
+	}
+	defer remote.Close()
+	
+	
+	// 将当前客户端链接发送的数据发送给远程被代理的服务器
+	Log.Infof("from %s to %s.\n", conn.RemoteAddr(), remote.RemoteAddr())
+	
+	
+	if dataType[Config.Type] {
+        connID := genConnID()
+        // transaction transactionNew
+	    go transactionNew(ctx, connID, conn, remote, true)
+	    transactionNew(ctx, connID, remote, conn, false)
+	}else{
+	    go func() {
+            defer conn.Close()
+            defer remote.Close()
+            // 任一方断开即可退出 
+            // 不会 goroutine 泄漏
+            errCh := make(chan error, 2)
+            go func() {
+                _, err := io.Copy(remote, conn)
+                errCh <- err
+            }()
+            go func() {
+                _, err := io.Copy(conn, remote)
+                errCh <- err
+            }()
+            <-errCh // 任意一个方向结束就退出
+        }()
+	}
+	<-ctx.Done()
+}
+
+// ------------------ TNS Buffer ------------------
+type TNSBuf struct {
+    buf []byte
+}
+
+func (t *TNSBuf) Append(data []byte) {
+    t.buf = append(t.buf, data...)
+}
+
+func (t *TNSBuf) NextPacket() ([]byte, bool) {
+    
+    // 跳出循环
+    if(t.buf == nil){
+        return nil, false
+    }
+    
+    // oracle TNS
+    if Config.Type != "oracle" {
+		pkt := t.buf
+		t.buf = nil
+		return pkt, true
+	}
+    
+    // oracle
+    if len(t.buf) < 8 {
+        return nil, false
+    }
+    pktLen := int(t.buf[0])<<8 | int(t.buf[1])
+    if pktLen < 8 || pktLen > 64 * 1024 {
+        t.buf = t.buf[8:]
+        return t.NextPacket()
+    }
+    if len(t.buf) < pktLen {
+        return nil, false
+    }
+    pkt := t.buf[:pktLen]
+    t.buf = t.buf[pktLen:]
+    return pkt, true
+    
+}
+
+
+// 解析oracle、mysql sql数据
+func ParseSQL(pkt []byte, connID string, from, to net.Conn, out bool) {
+    // 解析sql数据
+	if out {
+		sql := ""
+		switch Config.Type {
+		case "oracle":
+			sql = protocol.ParseOracleSQL(from.RemoteAddr().String(), to.RemoteAddr().String(), pkt)
+		case "mysql":
+			sql = protocol.ParseMysqlSQL(from.RemoteAddr().String(), to.RemoteAddr().String(), pkt)
+		case "redis":
+			sql = string(pkt)
+		}
+		if sql != "" {
+			storeSession(connID, &Session{
+				StartTime: time.Now().UnixNano(),
+				SQL:       sql,
+			})
+		}
+	} else {
+		if s, ok := deleteSession(connID); ok {
+			cost := float64(time.Now().UnixNano()-s.StartTime) / float64(time.Millisecond)
+			logSlowSQL(s.SQL, cost)
+		}
+	}
+	
+}
+
+func transaction(ctx context.Context, connID string, from, to net.Conn, out bool) {
+	buf := make([]byte, Config.BulkSize)
+	tnsBuf := &TNSBuf{}
+	for {
+		select {
+		case <-ctx.Done():
+			return
+		default:
+		}
+		from.SetReadDeadline(time.Now().Add(time.Duration(Config.Timeout) * time.Second))
+        n, err := from.Read(buf)
+		if n == 0 || err != nil {
+			return
+		}
+		tnsBuf.Append(buf[:n])
+		for {
+		    pkt, ok := tnsBuf.NextPacket()
+			if !ok {
+				break
+			}
+			// sql 解析
+			ParseSQL(pkt, connID, from, to, out)
+			to.SetWriteDeadline(time.Now().Add(time.Duration(Config.Timeout) * time.Second))
+			if _, err := to.Write(pkt); err != nil {
+				return
+			}
+		}
+	}
+}
+
+
+// ------------------ Transaction ------------------
+// sql 补全
+func transactionNew(ctx context.Context, connID string, from, to net.Conn, out bool) {
+	writer := NewTNSWriter(to, from, connID, out, Config.BulkSize)
+
+	// 超时兜底
+	go func() {
+		<-ctx.Done()
+		from.Close()
+		to.Close()
+		writer.Close()
+	}()
+
+	if _, err := io.Copy(writer, from); err != nil {
+		Log.Errorf("transaction error: %v", err)
+	}
+}
+
+// ------------------ TNSWriter ------------------
+type TNSWriter struct {
+	to     net.Conn
+	from   net.Conn
+	buf    []byte
+	pos    int
+
+	connID string
+	out    bool
+}
+
+var bufPool = sync.Pool{
+	New: func() any {
+		return make([]byte, 32 * 1024)
+	},
+}
+
+func NewTNSWriter(to, from net.Conn, connID string, out bool, size int) *TNSWriter {
+
+	return &TNSWriter{
+		to: to,
+		from: from,
+		buf:    bufPool.Get().([]byte),
+		connID: connID,
+		out:    out,
+	}
+}
+
+func (w *TNSWriter) Close() {
+	bufPool.Put(w.buf)
+	w.buf = nil
+}
+
+func (w *TNSWriter) Write(p []byte) (int, error) {
+    //写前清空 buffer
+    if len(p) > len(w.buf) {
+		return 0, io.ErrShortBuffer
+	}
+	copy(w.buf[w.pos:], p)
+	w.pos += len(p)
+    var pktLen int
+    // var err error
+	for {
+	    if w.pos == 0 {
+    		return len(p), nil
+    	}
+		if Config.Type != "oracle" {
+		    pktLen = w.pos
+// 			_, err = w.to.Write(w.buf[:w.pos])
+// 			w.pos = 0
+//          return len(p), err
+		}else{
+    		if w.pos < 8 {
+    			return len(p), nil
+    		}
+    		pktLen = int(w.buf[0])<<8 | int(w.buf[1])
+    		if pktLen < 8 || pktLen > 64 * 1024 {
+    			copy(w.buf, w.buf[8:w.pos])
+    			w.pos -= 8
+    			continue
+    		}
+    		if w.pos < pktLen {
+    			return len(p), nil
+    		}
+		}
+
+		pkt := w.buf[:pktLen]
+
+		// ===== OUT =====
+		if w.out {
+			sql := ""
+			switch Config.Type {
+			case "oracle":
+				sql = protocol.ParseOracleSQL(w.from.RemoteAddr().String(), w.to.RemoteAddr().String(), pkt)
+			case "mysql":
+				sql = protocol.ParseMysqlSQL(w.from.RemoteAddr().String(), w.to.RemoteAddr().String(), pkt)
+			case "redis":
+				sql = string(pkt)
+			}
+
+			if sql != "" {
+            	storeSession(w.connID, &Session{
+            		StartTime: time.Now().UnixNano(),
+            		SQL:       sql,
+            	})
+			}
+			
+		} else {
+			// ===== IN =====
+            if !w.out {
+            	if s, ok := deleteSession(w.connID); ok {
+            		cost := float64(time.Now().UnixNano()-s.StartTime) / float64(time.Millisecond)
+            		logSlowSQL(s.SQL, cost)
+            	}
+            }
+		}
+        // w.to.SetWriteDeadline(time.Now().Add(time.Duration(Config.Timeout) * time.Second))
+		if _, err := w.to.Write(pkt); err != nil {
+			return 0, err
+		}
+
+		copy(w.buf, w.buf[pktLen:w.pos])
+		w.pos -= pktLen
+	}
+}
+
